@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "34394b99-1d3b-43a0-b642-4c91cc791fc1",
-		"name": "w3project_local",
+		"_postman_id": "d5f4e774-289b-4087-b8b8-7d111da59dc6",
+		"name": "w3project_heroku",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -11,10 +11,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/posts",
+					"raw": "https://lit-ridge-97131.herokuapp.com/posts",
 					"protocol": "https",
 					"host": [
-						"stormy-anchorage-06474",
+						"lit-ridge-97131",
 						"herokuapp",
 						"com"
 					],
@@ -40,15 +40,15 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/post",
+					"raw": "https://lit-ridge-97131.herokuapp.com/posts",
 					"protocol": "https",
 					"host": [
-						"stormy-anchorage-06474",
+						"lit-ridge-97131",
 						"herokuapp",
 						"com"
 					],
 					"path": [
-						"post"
+						"posts"
 					]
 				}
 			},
@@ -60,37 +60,36 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/post/627299c45a719f4e68d1ed9a",
+					"raw": "https://lit-ridge-97131.herokuapp.com/posts/6273ed0ef702784b7200b226",
 					"protocol": "https",
 					"host": [
-						"stormy-anchorage-06474",
+						"lit-ridge-97131",
 						"herokuapp",
 						"com"
 					],
 					"path": [
-						"post",
-						"627299c45a719f4e68d1ed9a"
+						"posts",
+						"6273ed0ef702784b7200b226"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "取得單筆Post",
+			"name": "刪除全部posts",
 			"request": {
-				"method": "GET",
+				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/post/627299d65a719f4e68d1ed9f",
+					"raw": "https://lit-ridge-97131.herokuapp.com/posts",
 					"protocol": "https",
 					"host": [
-						"stormy-anchorage-06474",
+						"lit-ridge-97131",
 						"herokuapp",
 						"com"
 					],
 					"path": [
-						"post",
-						"627299d65a719f4e68d1ed9f"
+						"posts"
 					]
 				}
 			},
@@ -111,16 +110,16 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/post/627299d65a719f4e68d1ed9f",
+					"raw": "https://lit-ridge-97131.herokuapp.com/posts/6273f456eb3be3f06700b05f",
 					"protocol": "https",
 					"host": [
-						"stormy-anchorage-06474",
+						"lit-ridge-97131",
 						"herokuapp",
 						"com"
 					],
 					"path": [
-						"post",
-						"627299d65a719f4e68d1ed9f"
+						"posts",
+						"6273f456eb3be3f06700b05f"
 					]
 				}
 			},

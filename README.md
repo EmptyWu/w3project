@@ -14,5 +14,7 @@ npm i express-generator -g
 
 ## 快速產生指令
 ```
-express -view=none 專案名稱
+express --no-view 專案名稱
 ```
+
+heroku Url : https://lit-ridge-97131.herokuapp.com/
